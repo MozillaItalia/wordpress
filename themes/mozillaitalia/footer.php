@@ -4,7 +4,7 @@
 ?>
 <div id="footer">
  <div>
-	<p>Hosting offerto da <a href="http://www.mozilla.org/">Mozilla Foundation</a></p>
+	<p>Hosting offerto da <a href="https://www.mozilla.org/">Mozilla Foundation</a></p>
  </div>
  <div id="footer_centro">
 	<p>Associazione Italiana Supporto e Traduzione Mozilla<br/>
@@ -17,7 +17,7 @@
     </p>
  </div>
  <div>
-    <p>Contenuti distribuiti con <br/><a href="http://creativecommons.org/licenses/by-sa/4.0/">licenza Creative Commons</a>.</p>
+    <p>Contenuti distribuiti con <br/><a href="https://creativecommons.org/licenses/by-sa/4.0/">licenza Creative Commons</a>.</p>
  </div>
 </div><!-- id=footer -->
 </div><!-- id=wrap -->

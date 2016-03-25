@@ -2,15 +2,15 @@
 Theme Name: Mozilla Italia
 Description: Tema wordpress per portale www.mozillaitalia.org
 Author: Francesco Lodolo
-Author URI: http://www.pseudotecnico.org
+Author URI: https://www.pseudotecnico.org
 Version: 1.2
 */
 
-/* 
+/*
 Image source for some of the icons used in this theme
 http://www.famfamfam.com/lab/icons/silk/
 
-Image source for image used as hr : 
+Image source for image used as hr :
 http://www.smashingmagazine.com/2008/09/09/the-hr-contest-results-download-your-fresh-hr-line-now/
 
 Image source for Foxkeh:
@@ -108,7 +108,7 @@ div.codice {
   	background-color: #f9f9f9;
   	border: 1px solid silver;
   	margin: 0 0 1.5em 0;
-  	overflow: auto;	
+  	overflow: auto;
 	padding: 3px;
 }
 
@@ -158,11 +158,11 @@ a:hover {
 h1, h2, h3, h4 {
 	color: #000;
 	font-weight: bold;
-	font-family: "Trebuchet MS",tahoma,verdana,sans,arial,helvetica,sans-serif;	
+	font-family: "Trebuchet MS",tahoma,verdana,sans,arial,helvetica,sans-serif;
 }
 
 h1 a, h1 a:link, h1 a:visited  {
-	color:#000;	
+	color:#000;
 }
 
 h1 a:hover  {
@@ -180,7 +180,7 @@ h1 a:hover  {
 
 #header div{
 	background: url("immagini/header_logo.png") top left no-repeat;
-	height: 205px;	
+	height: 205px;
 }
 
 #header img{
@@ -215,8 +215,8 @@ h1 a:hover  {
 	color: #666;
 	margin-top: 10px;
 	padding: 10px;
-	border: 1px solid #D2C6D4;	
-	background-color: #EBDDED; 
+	border: 1px solid #D2C6D4;
+	background-color: #EBDDED;
 }
 
 .postmetadata a {
@@ -238,7 +238,7 @@ h1 a:hover  {
 	float: right;
 	margin: 10px 5px 15px;
 	width: 170px;
-	background: url("immagini/bg_sidebar.png") repeat-x; 
+	background: url("immagini/bg_sidebar.png") repeat-x;
 	min-height:500px;
 	padding: 10px;
 	color: #555;
@@ -252,12 +252,12 @@ h1 a:hover  {
 #sidebar h3 {
 	font-size: 12pt;
 	color: #333;
-	margin-top: 7px;	
+	margin-top: 7px;
 }
 
 #sidebar li {
-	border-bottom: 1px dashed #ccc;	
-	padding-bottom: 1px;	
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 1px;
 	list-style: none;
 	margin: 0;
 }
@@ -268,18 +268,18 @@ h1 a:hover  {
 }
 
 #sidebar li a:hover{
-	background-color: #C4C4EC;	
+	background-color: #C4C4EC;
 	color: #000;
 	text-decoration: none;
 }
 
 #box_ricerca {
-	border: 1px solid #000000; 
+	border: 1px solid #000000;
 	padding: 3px;
 	font-size: 9pt;
 	background-color: #ffffff;
 	width: 90%;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
 }
 
 #pulsante_ricerca {
@@ -287,7 +287,7 @@ h1 a:hover  {
     border-width: 1px;
     border-color: #000000;
     border-style: solid;
-    margin-bottom: 5px;  
+    margin-bottom: 5px;
 }
 
 /*************************
@@ -332,7 +332,7 @@ h1 a:hover  {
 #footer div {
 	width: 30%;
 	float: left;
-	text-align: center;	
+	text-align: center;
 }
 
 #footer div#footer_centro {
@@ -404,7 +404,7 @@ div#foxkeh_download {
 /* Elenchi file e relativi tipi di icone */
 
 ul.download {
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 ul.download li {
@@ -433,18 +433,18 @@ ul.download li.mac {
 
 .box_download {
 	margin-top: 20px;
-	background: url("immagini/box_download_bottomleft.png") bottom left no-repeat;	
-	padding: 20px;	
+	background: url("immagini/box_download_bottomleft.png") bottom left no-repeat;
+	padding: 20px;
 	min-height: 170px;
 	position: relative;
 }
 
 .box_download2 {
-	background: url("immagini/box_download_topright.png") top right no-repeat;	
+	background: url("immagini/box_download_topright.png") top right no-repeat;
 }
 
 .logo_download {
-	background: url("immagini/loghi_app.png") no-repeat;	
+	background: url("immagini/loghi_app.png") no-repeat;
 	position: absolute;
 	width: 135px;
 	height: 140px;
@@ -457,19 +457,19 @@ ul.download li.mac {
 }
 
 #firefox_box {
-	background-position: -405px 0;	
+	background-position: -405px 0;
 }
 
 #thunderbird_box {
-	background-position: -540px 0;	
+	background-position: -540px 0;
 }
 
 #seamonkey_box {
-	background-position: -270px 0;	
+	background-position: -270px 0;
 }
 
 #calendar_box {
-	background-position: -135px 0;	
+	background-position: -135px 0;
 }
 
 /*************************
@@ -478,7 +478,7 @@ ul.download li.mac {
 
 .attenzione {
 	padding-left: 84px;
-	background: url("immagini/attenzione.png") 10px center no-repeat;	
+	background: url("immagini/attenzione.png") 10px center no-repeat;
 }
 
 div#foxkeh_contatti {
@@ -519,10 +519,10 @@ button {
    background-color: #CCC;
    border-width: 1px;
    border-color: #000000;
-   border-style: solid;  
+   border-style: solid;
 }
 
-input.checkbox { 
+input.checkbox {
    margin: 8px 4px 0 0;
 }
 
