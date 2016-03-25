@@ -8,8 +8,8 @@
 	<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Archivio <?php } ?> <?php wp_title(); ?></title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="dc.title" content="Mozilla Italia" />
-	<meta name="dc.subject" content="mozilla, browser, mail, netscape, firebird, thunderbird, internet, email, italiano, supporto, mozdoesit" />
-	<meta name="dc.description" content="Il sito del gruppo di traduzione italiana di Mozilla. Qui si possono trovare le versioni in italiano di Mozilla Suite, Mozilla Firebird e Mozilla Thunderbird. Disponibile vario materiale di supporto, un forum e una mailing list." />
+	<meta name="dc.subject" content="mozilla, browser, mail, seamonkey, firefox, thunderbird, internet, email, italiano, supporto, mozdoesit" />
+	<meta name="dc.description" content="Il sito del gruppo di traduzione italiano di Mozilla. Qui si possono trovare le versioni in italiano di SeaMonkey, Mozilla Firefox e Mozilla Thunderbird. Disponibile vario materiale di supporto, un forum e un blog." />
 	<meta name="dc.creator" content="Francesco Lodolo" />
 	<meta name="dc.creator.namepersonal" content="Lodolo Francesco" />
 	<meta name="dc.contributor" content="Gruppo Mozilla Italia" />
