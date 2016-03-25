@@ -229,6 +229,18 @@ h1 a:hover  {
 	text-decoration: underline;
 }
 
+figure img {
+	display: block;
+	margin: 0 auto;
+}
+
+figure figcaption {
+	background-color: #eee;
+	padding: 0.5em;
+	font-style: italic;
+	text-align: center;
+	margin: 0.5em 0;
+}
 
 /*************************
  Barra laterale
