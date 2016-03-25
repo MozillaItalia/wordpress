@@ -1,0 +1,41 @@
+img, li, div { 
+	behavior: url(/home/wp-content/themes/mozillaitalia/ie6/iepngfix.htc);
+}
+
+.box_download {
+	width: 610px;
+}
+
+.logo_download {
+	z-index: 2;
+}
+
+#wrap {
+	position: relative;
+}
+
+#header div{
+	background: url("immagini/header_completo.png") top left no-repeat;
+	height: 205px;
+}
+
+#header img{
+	display: none;
+}
+
+#warning_ie6 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #B5E6FF url("immagini/bg_banner_collabora.gif") top left repeat-x;
+	border: 1px solid #3742FF;
+	width: 350px;
+	padding: 10px;
+	margin: 0 auto;	
+	line-height: 1.7em;
+}
+
+#warning_ie6 img {
+	float: left;
+	margin-right: 10px;
+}

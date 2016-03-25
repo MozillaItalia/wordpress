@@ -1,0 +1,559 @@
+/*
+Theme Name: Mozilla Italia
+Description: Tema wordpress per portale www.mozillaitalia.org
+Author: Francesco Lodolo
+Author URI: http://www.pseudotecnico.org
+Version: 1.2
+*/
+
+/* 
+Image source for some of the icons used in this theme
+http://www.famfamfam.com/lab/icons/silk/
+
+Image source for image used as hr : 
+http://www.smashingmagazine.com/2008/09/09/the-hr-contest-results-download-your-fresh-hr-line-now/
+
+Image source for Foxkeh:
+http://www.foxkeh.com/
+*/
+
+/*************************
+ Layout comune e tag generici
+**************************/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #C4C4EC url("immagini/bg_main.png") 50% 0 repeat-y;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000;
+	text-align: center;
+}
+
+#wrap {
+	background-color: #faf5fe;
+	margin: 0 auto;
+	width: 910px;
+	text-align: left;
+	padding-bottom: 60px;
+}
+
+#main {
+	padding: 10px;
+}
+
+#content {
+	margin: 0px 200px 15px 10px;
+	padding: 10px;
+	color: #333;
+}
+
+ul li, ol li {
+	margin-left: 25px;
+}
+
+#content ul, #content ol {
+	margin: 15px 0;
+}
+
+h1 {
+	font-size:16pt;
+}
+
+h2 {
+	font-size:13pt;
+}
+
+h3 {
+	font-size:11pt;
+}
+
+h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+p, h1, h2, h3, h4 {
+	padding-bottom: 6px;
+}
+
+img, img a {
+	border: 0px;
+}
+
+blockquote {
+	/*padding: 8px 8px 36px 36px;*/
+	margin-left: 20px;
+	padding-left: 45px;
+	padding-right: 35px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	color: #000;
+	background: url(immagini/open-quote.png) top left no-repeat;
+}
+
+blockquote > p:last-child {
+	padding-right: 36px;
+	background: url(immagini/close-quote.png) bottom right no-repeat;
+	min-height: 30px;
+}
+
+div.codice {
+	font-family: monospace;
+  	color: #100;
+  	background-color: #f9f9f9;
+  	border: 1px solid silver;
+  	margin: 0 0 1.5em 0;
+  	overflow: auto;	
+	padding: 3px;
+}
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+/* As usual, need to add an extra div to avoid IE's problems... */
+
+div.hr {
+	height: 40px;
+    background: #faf5fe url("immagini/hr.png") no-repeat center;
+}
+
+div.hr hr {
+  display: none;
+}
+
+a, a:link {
+   color: #CF1F00;
+   text-decoration:none;
+   font-weight: bold;
+}
+
+a:visited {
+   color: #921600;
+   text-decoration:none;
+   font-weight: bold;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: #CF695A;
+}
+
+h1, h2, h3, h4 {
+	color: #000;
+	font-weight: bold;
+	font-family: "Trebuchet MS",tahoma,verdana,sans,arial,helvetica,sans-serif;	
+}
+
+h1 a, h1 a:link, h1 a:visited  {
+	color:#000;	
+}
+
+h1 a:hover  {
+	text-decoration: none;
+}
+
+/*************************
+ Header
+**************************/
+
+#header {
+	background: url("immagini/bg_header.png") repeat-x;
+
+}
+
+#header div{
+	background: url("immagini/header_logo.png") top left no-repeat;
+	height: 205px;	
+}
+
+#header img{
+	padding-left: 215px;
+}
+
+#header h1, #header p {
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+/*************************
+ Post
+**************************/
+
+.post {
+	padding-bottom: 10px;
+	clear: left;
+}
+
+.post h1 {
+	padding: 15px 0 10px;
+}
+
+.post h2, .post h3, .post h4 {
+	padding: 4px 0 6px;
+}
+
+.postmetadata {
+	color: #666;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #D2C6D4;	
+	background-color: #EBDDED; 
+}
+
+.postmetadata a {
+	color: #666;
+	text-decoration: none;
+}
+
+.postmetadata a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+
+/*************************
+ Barra laterale
+**************************/
+
+#sidebar {
+	float: right;
+	margin: 10px 5px 15px;
+	width: 170px;
+	background: url("immagini/bg_sidebar.png") repeat-x; 
+	min-height:500px;
+	padding: 10px;
+	color: #555;
+}
+
+#sidebar a {
+	font-weight: normal;
+	color: #555;
+}
+
+#sidebar h3 {
+	font-size: 12pt;
+	color: #333;
+	margin-top: 7px;	
+}
+
+#sidebar li {
+	border-bottom: 1px dashed #ccc;	
+	padding-bottom: 1px;	
+	list-style: none;
+	margin: 0;
+}
+
+#sidebar li a{
+	display: block;
+	padding: 2px 0 0 4px;
+}
+
+#sidebar li a:hover{
+	background-color: #C4C4EC;	
+	color: #000;
+	text-decoration: none;
+}
+
+#box_ricerca {
+	border: 1px solid #000000; 
+	padding: 3px;
+	font-size: 9pt;
+	background-color: #ffffff;
+	width: 90%;
+	margin-bottom: 5px;	
+}
+
+#pulsante_ricerca {
+    background-color: #CCC;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    margin-bottom: 5px;  
+}
+
+/*************************
+ Navigazione vecchi/nuovi post
+**************************/
+
+.navigation {
+	padding: 10px 0px;
+	color: #666;
+}
+
+.navigation a {
+	color: #666;
+	text-decoration: none;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+/*************************
+ Piede
+**************************/
+
+#footer {
+	color:#888;
+	clear: both;
+	padding: 5px 0px;
+	text-align:center;
+	font-size: 85%;
+}
+
+#footer a {
+	color:#999;
+	text-decoration: none;
+}
+
+#footer div {
+	width: 30%;
+	float: left;
+	text-align: center;	
+}
+
+#footer div#footer_centro {
+	width: 38%;
+}
+
+
+/*************************
+ Home page
+**************************/
+
+#introduzione {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#intro_statica {
+	width: 360px;
+	float: left;
+}
+
+.banner_collabora {
+	background: #FFF6BB url("immagini/bg_banner_collabora.gif") top left repeat-x;
+	border: 1px solid #FFD229;
+	width: 250px;
+	padding: 5px;
+	float: right;
+}
+
+#banner_collabora_download {
+  margin-top: 35px;
+}
+
+.banner_collabora p {
+	margin: 3px;
+}
+
+.banner_collabora a {
+	color: #FF1D08;
+}
+
+.banner_collabora ul li {
+	list-style: none;
+	padding: 2px 0 0 3px;
+	margin: 0;
+}
+
+div#foxkeh_home {
+	width: 110px;
+	height: 104px;
+	background: url("immagini/foxkeh.png") no-repeat;
+	background-position: 0 -251px;
+	float: right;
+}
+
+/*************************
+ Pagina download
+**************************/
+
+div#foxkeh_download {
+	width: 110px;
+	height: 118px;
+	background: url("immagini/foxkeh.png") no-repeat;
+	background-position: 0 -132px;
+	float: right;
+}
+
+/* Elenchi file e relativi tipi di icone */
+
+ul.download {
+	list-style-type: none;	
+}
+
+ul.download li {
+	background: url("immagini/loghi_download.png") no-repeat;
+	height: 20px;
+	padding-left: 24px;
+}
+
+ul.download li.zip {
+  	background-position: 0 -20px;
+}
+
+ul.download li.xpi {
+  	background-position: 0 -40px;
+}
+
+ul.download li.windows {
+  	background-position: 0 -60px;
+}
+
+ul.download li.mac {
+  	background-position: 0 -80px;
+}
+
+/* Box che contiene i file per il download */
+
+.box_download {
+	margin-top: 20px;
+	background: url("immagini/box_download_bottomleft.png") bottom left no-repeat;	
+	padding: 20px;	
+	min-height: 170px;
+	position: relative;
+}
+
+.box_download2 {
+	background: url("immagini/box_download_topright.png") top right no-repeat;	
+}
+
+.logo_download {
+	background: url("immagini/loghi_app.png") no-repeat;	
+	position: absolute;
+	width: 135px;
+	height: 140px;
+	top: 40px;
+	right: 40px;
+}
+
+.box_download h2 {
+	padding-top: 15px;
+}
+
+#firefox_box {
+	background-position: -405px 0;	
+}
+
+#thunderbird_box {
+	background-position: -540px 0;	
+}
+
+#seamonkey_box {
+	background-position: -270px 0;	
+}
+
+#calendar_box {
+	background-position: -135px 0;	
+}
+
+/*************************
+ Modulo contatti e adesioni
+**************************/
+
+.attenzione {
+	padding-left: 84px;
+	background: url("immagini/attenzione.png") 10px center no-repeat;	
+}
+
+div#foxkeh_contatti {
+	width: 110px;
+	height: 132px;
+	background: url("immagini/foxkeh.png") no-repeat;
+	float: right;
+}
+
+fieldset div.paddfield {
+   padding: 10px 5px 5px 5px;
+   text-align: left;
+}
+
+fieldset div.paddfield td {
+   vertical-align: top;
+   padding: 4px 0;
+}
+
+p.errore {
+	color: red;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+fieldset legend {
+   font-weight: bold;
+   margin-left: 10px;
+   padding: 3px;
+}
+
+fieldset {
+	margin: 10px 0;
+}
+
+button {
+   background-color: #CCC;
+   border-width: 1px;
+   border-color: #000000;
+   border-style: solid;  
+}
+
+input.checkbox { 
+   margin: 8px 4px 0 0;
+}
+
+/*************************
+ Pagine di start Seamonkey
+**************************/
+
+dd {
+	margin-left: 20px;
+}
+
+dd a, dd a:link {
+	font-weight: normal;
+}
+
+dt {
+	margin-top: 6px;
+}
+
+p.copyright {
+	margin-top: 10px;
+}
+
+/*************************
+  Pagina riconoscimenti
+**************************/
+
+div#foxkeh_riconoscimenti {
+	width: 110px;
+	height: 143px;
+	background: url("immagini/foxkeh.png") no-repeat;
+	background-position: 0 -354px;
+	float: right;
+}
