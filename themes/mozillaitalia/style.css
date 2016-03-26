@@ -27,7 +27,7 @@ http://www.foxkeh.com/
 }
 
 body {
-	background: #C4C4EC url("immagini/bg_main.png") 50% 0 repeat-y;
+	background: #c4c4ec url(immagini/bg_main.png) 50% 0 repeat-y;
 	font-family: verdana, arial, helvetica, sans-serif;
 	font-size: 9pt;
 	color: #000;
@@ -52,24 +52,26 @@ body {
 	color: #333;
 }
 
-ul li, ol li {
+ul li,
+ol li {
 	margin-left: 25px;
 }
 
-#content ul, #content ol {
+#content ul,
+#content ol {
 	margin: 15px 0;
 }
 
 h1 {
-	font-size:16pt;
+	font-size: 16pt;
 }
 
 h2 {
-	font-size:13pt;
+	font-size: 13pt;
 }
 
 h3 {
-	font-size:11pt;
+	font-size: 11pt;
 }
 
 h1 a {
@@ -77,11 +79,16 @@ h1 a {
 	text-decoration: none;
 }
 
-p, h1, h2, h3, h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
 	padding-bottom: 6px;
 }
 
-img, img a {
+img,
+img a {
 	border: 0px;
 }
 
@@ -131,41 +138,47 @@ div.aligncenter {
 
 div.hr {
 	height: 40px;
-    background: #faf5fe url("immagini/hr.png") no-repeat center;
+    background: #faf5fe url(immagini/hr.png) no-repeat center;
 }
 
 div.hr hr {
   display: none;
 }
 
-a, a:link {
-   color: #CF1F00;
-   text-decoration:none;
+a,
+a:link {
+   color: #cf1f00;
+   text-decoration: none;
    font-weight: bold;
 }
 
 a:visited {
    color: #921600;
-   text-decoration:none;
+   text-decoration: none;
    font-weight: bold;
 }
 
 a:hover {
    text-decoration: underline;
-   color: #CF695A;
+   color: #cf695a;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	color: #000;
 	font-weight: bold;
-	font-family: "Trebuchet MS",tahoma,verdana,sans,arial,helvetica,sans-serif;
+	font-family: 'Trebuchet MS', tahoma, verdana, sans;
 }
 
-h1 a, h1 a:link, h1 a:visited  {
-	color:#000;
+h1 a,
+h1 a:link,
+h1 a:visited {
+	color: #000;
 }
 
-h1 a:hover  {
+h1 a:hover {
 	text-decoration: none;
 }
 
@@ -174,20 +187,21 @@ h1 a:hover  {
 **************************/
 
 #header {
-	background: url("immagini/bg_header.png") repeat-x;
+	background: url(immagini/bg_header.png) repeat-x;
 
 }
 
-#header div{
-	background: url("immagini/header_logo.png") top left no-repeat;
+#header div {
+	background: url(immagini/header_logo.png) top left no-repeat;
 	height: 205px;
 }
 
-#header img{
+#header img {
 	padding-left: 215px;
 }
 
-#header h1, #header p {
+#header h1,
+#header p {
 	display: block;
 	width: 0;
 	height: 0;
@@ -207,7 +221,9 @@ h1 a:hover  {
 	padding: 15px 0 10px;
 }
 
-.post h2, .post h3, .post h4 {
+.post h2,
+.post h3,
+.post h4 {
 	padding: 4px 0 6px;
 }
 
@@ -215,8 +231,8 @@ h1 a:hover  {
 	color: #666;
 	margin-top: 10px;
 	padding: 10px;
-	border: 1px solid #D2C6D4;
-	background-color: #EBDDED;
+	border: 1px solid #d2c6d4;
+	background-color: #ebdded;
 }
 
 .postmetadata a {
@@ -250,8 +266,8 @@ figure figcaption {
 	float: right;
 	margin: 10px 5px 15px;
 	width: 170px;
-	background: url("immagini/bg_sidebar.png") repeat-x;
-	min-height:500px;
+	background: url(immagini/bg_sidebar.png) repeat-x;
+	min-height: 500px;
 	padding: 10px;
 	color: #555;
 }
@@ -274,13 +290,13 @@ figure figcaption {
 	margin: 0;
 }
 
-#sidebar li a{
+#sidebar li a {
 	display: block;
 	padding: 2px 0 0 4px;
 }
 
-#sidebar li a:hover{
-	background-color: #C4C4EC;
+#sidebar li a:hover {
+	background-color: #c4c4ec;
 	color: #000;
 	text-decoration: none;
 }
@@ -295,7 +311,7 @@ figure figcaption {
 }
 
 #pulsante_ricerca {
-    background-color: #CCC;
+    background-color: #ccc;
     border-width: 1px;
     border-color: #000000;
     border-style: solid;
@@ -329,15 +345,15 @@ figure figcaption {
 **************************/
 
 #footer {
-	color:#888;
+	color: #888;
 	clear: both;
 	padding: 5px 0px;
-	text-align:center;
+	text-align: center;
 	font-size: 85%;
 }
 
 #footer a {
-	color:#999;
+	color: #999;
 	text-decoration: none;
 }
 
@@ -350,7 +366,6 @@ figure figcaption {
 #footer div#footer_centro {
 	width: 38%;
 }
-
 
 /*************************
  Home page
@@ -368,8 +383,8 @@ figure figcaption {
 }
 
 .banner_collabora {
-	background: #FFF6BB url("immagini/bg_banner_collabora.gif") top left repeat-x;
-	border: 1px solid #FFD229;
+	background: #fff6bb url(immagini/bg_banner_collabora.gif) top left repeat-x;
+	border: 1px solid #ffd229;
 	width: 250px;
 	padding: 5px;
 	float: right;
@@ -384,7 +399,7 @@ figure figcaption {
 }
 
 .banner_collabora a {
-	color: #FF1D08;
+	color: #ff1d08;
 }
 
 .banner_collabora ul li {
@@ -396,7 +411,7 @@ figure figcaption {
 div#foxkeh_home {
 	width: 110px;
 	height: 104px;
-	background: url("immagini/foxkeh.png") no-repeat;
+	background: url(immagini/foxkeh.png) no-repeat;
 	background-position: 0 -251px;
 	float: right;
 }
@@ -408,7 +423,7 @@ div#foxkeh_home {
 div#foxkeh_download {
 	width: 110px;
 	height: 118px;
-	background: url("immagini/foxkeh.png") no-repeat;
+	background: url(immagini/foxkeh.png) no-repeat;
 	background-position: 0 -132px;
 	float: right;
 }
@@ -420,7 +435,7 @@ ul.download {
 }
 
 ul.download li {
-	background: url("immagini/loghi_download.png") no-repeat;
+	background: url(immagini/loghi_download.png) no-repeat;
 	height: 20px;
 	padding-left: 24px;
 }
@@ -445,18 +460,18 @@ ul.download li.mac {
 
 .box_download {
 	margin-top: 20px;
-	background: url("immagini/box_download_bottomleft.png") bottom left no-repeat;
+	background: url(immagini/box_download_bottomleft.png) bottom left no-repeat;
 	padding: 20px;
 	min-height: 170px;
 	position: relative;
 }
 
 .box_download2 {
-	background: url("immagini/box_download_topright.png") top right no-repeat;
+	background: url(immagini/box_download_topright.png) top right no-repeat;
 }
 
 .logo_download {
-	background: url("immagini/loghi_app.png") no-repeat;
+	background: url(immagini/loghi_app.png) no-repeat;
 	position: absolute;
 	width: 135px;
 	height: 140px;
@@ -490,13 +505,13 @@ ul.download li.mac {
 
 .attenzione {
 	padding-left: 84px;
-	background: url("immagini/attenzione.png") 10px center no-repeat;
+	background: url(immagini/attenzione.png) 10px center no-repeat;
 }
 
 div#foxkeh_contatti {
 	width: 110px;
 	height: 132px;
-	background: url("immagini/foxkeh.png") no-repeat;
+	background: url(immagini/foxkeh.png) no-repeat;
 	float: right;
 }
 
@@ -528,7 +543,7 @@ fieldset {
 }
 
 button {
-   background-color: #CCC;
+   background-color: #ccc;
    border-width: 1px;
    border-color: #000000;
    border-style: solid;
@@ -546,7 +561,8 @@ dd {
 	margin-left: 20px;
 }
 
-dd a, dd a:link {
+dd a,
+dd a:link {
 	font-weight: normal;
 }
 
@@ -565,7 +581,7 @@ p.copyright {
 div#foxkeh_riconoscimenti {
 	width: 110px;
 	height: 143px;
-	background: url("immagini/foxkeh.png") no-repeat;
+	background: url(immagini/foxkeh.png) no-repeat;
 	background-position: 0 -354px;
 	float: right;
 }
