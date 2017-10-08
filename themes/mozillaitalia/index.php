@@ -5,8 +5,8 @@
       <div id="content">
  		 <div id="introduzione">
 			<div id="intro_statica">
-			  <h1>Associazione Italiana Supporto e Traduzione Mozilla</h1>
-			  <p>Siamo un'associazione senza fini di lucro che si dedica alla traduzione italiana, al supporto e alla promozione dei prodotti della <a href="https://www.mozilla.org/">Mozilla Foundation</a> e derivati.</p>
+			  <h1>Comunità Mozilla Italia</h1>
+			  <p>Siamo un gruppo di volontari che si dedica alla traduzione italiana, al supporto e alla promozione dei prodotti della <a href="https://www.mozilla.org/">Mozilla Foundation</a> e derivati.</p>
 			  <p>In questo sito è raccolto il nostro lavoro: software, traduzioni, articoli e guide.</p>
 			  <p>Vi raccomandiamo di consultare i <a href="http://forum.mozillaitalia.org/">nostri forum</a>, per chiedere informazioni o segnalare problemi su tutto ciò che pubblichiamo e, ovviamente, anche per offrire aiuto.</p>
 		    </div>

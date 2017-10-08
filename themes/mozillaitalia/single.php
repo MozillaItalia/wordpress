@@ -10,9 +10,9 @@
 					<?php the_content('Continua a leggere l\'articolo &raquo;'); ?>
 				</div>
 				<div class="postmetadata">
-					<?php the_tags('Etichette: ', ', ', '<br />'); ?> Archiviato in <?php the_category(', ') ?> il 
+					<?php the_tags('Etichette: ', ', ', '<br />'); ?> Archiviato in <?php the_category(', ') ?> il
 					<?php echo strftime('%d %B %Y alle %H:%M',strtotime(get_the_time('m/d/Y H:i'))); ?> | Scritto da <?php the_author_posts_link(); ?>
-    	            <?php edit_post_link('Modifica', ' | ', ''); ?> 
+    	            <?php edit_post_link('Modifica', ' | ', ''); ?>
         </div>
 			</div>
 			<?php endwhile; ?>

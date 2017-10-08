@@ -7,13 +7,10 @@
 	<p>Hosting offerto da <a href="https://www.mozilla.org/">Mozilla Foundation</a></p>
  </div>
  <div id="footer_centro">
-	<p>Associazione Italiana Supporto e Traduzione Mozilla<br/>
-	   <acronym title="Codice Fiscale">CF</acronym>: IT02359160344</p>
+	<p>Comunità Mozilla Italia</p>
     <p>
         <a href="<?php echo $indirizzo_base_url_footer; ?>riconoscimenti">Riconoscimenti</a>&nbsp;–&nbsp;
-        <a href="<?php echo $indirizzo_base_url_footer; ?>associazione/informativa-sulla-privacy/">Privacy</a>&nbsp;–&nbsp;
-        <a href="<?php echo $indirizzo_base_url_footer; ?>informativa-sui-cookie/">Cookie</a>&nbsp;–&nbsp;
-        <a href="<?php echo $indirizzo_base_url_footer; ?>associazione/contatti/">Contatti</a>
+        <a href="<?php echo $indirizzo_base_url_footer; ?>informativa-sui-cookie/">Cookie</a>
     </p>
  </div>
  <div>
