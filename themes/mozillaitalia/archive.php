@@ -28,11 +28,11 @@
 				<div class="entry">
 				  <?php the_content(); ?>
 				</div>
-				<div class="postmetadata"><?php the_tags('Etichette: ', ', ', '<br />'); ?> Archiviato in <?php the_category(', ') ?> il 
+				<div class="postmetadata"><?php the_tags('Etichette: ', ', ', '<br />'); ?> Archiviato in <?php the_category(', ') ?> il
 					<?php echo strftime('%d %B %Y alle %H:%M',strtotime(get_the_time('m/d/Y H:i'))); ?> | <?php edit_post_link('Modifica', '', ''); ?> </div>
 		</div>
-		<div class="hr"><hr /></div>		
-		
+		<div class="hr"><hr /></div>
+
 		<?php endwhile; ?>
 
 		<div class="navigation">
