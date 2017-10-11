@@ -122,8 +122,7 @@ div.codice {
 .aligncenter,
 div.aligncenter {
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
 }
 
 .alignleft {
@@ -250,7 +249,19 @@ figure img {
 	margin: 0 auto;
 }
 
-figure figcaption {
+.wp-caption {
+	background-color: #eee;
+	margin: 15px auto;
+}
+
+.wp-caption img {
+	padding-top: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+figure figcaption,
+.wp-caption-text {
 	background-color: #eee;
 	padding: 0.5em;
 	font-style: italic;
